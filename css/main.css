@@ -10,6 +10,7 @@ body, html {
 }
 
 #landing {
+  /*display: none;*/
   padding-top:20px;
   width: 100%;
   height: 100%;
@@ -61,13 +62,117 @@ body, html {
 #slogan_text span {
   color: #44c2ee;
 }
+#second_page {
+  /*display: none;*/
+}
+#second_page .title {
+  margin: 20px 20px 0;
+  width: 260.5px;
+  height: 61.5px;
+  background: url('../img/more_than.png') no-repeat;
+  background-size: 100%;
+}
 
+#second_page .text {
+  margin: 0 20px;
+  color: #2c2c2c;
+  font-family: 'Dosis';
+  font-size: 1.7em;
+  line-height: 110%;
+  margin-top: 20px;
+}
+#second_page .doodel {
+  margin: 35px auto 0;
+  width: 288px;
+  height: 323.5px;
+  background: url('../img/2nd_doodel.png') no-repeat;
+  background-size: 100%;
+}
 
+.text span {
+  color: #1c86d3;
+}
 
+#third_page {
+  margin-top: 10px;
+}
+#third_page .title {
 
+  margin: 0 auto;
+  color: #1c86d3;
+  width: 240px;
+  font-family: 'Dosis';
+  font-size: 1.5em;
+  text-align: center;
+}
+#third_page .title span {
+  margin-top: 10px;
+}
+#third_page .title .left {
+  float: left;
+  display: block;
+  width: 37.5px;
+  height: 28.5px;
+  background: url('../img/leftDownArrow.png') no-repeat;
+  background-size: 100%;
+}
 
+#third_page .title .right {
+  float: right;
+  display: block;
+  width: 37.5px;
+  height: 28.5px;
+  background: url('../img/rightDownArrow.png') no-repeat;
+  background-size: 100%;
+}
 
+#third_page .doodle {
+  clear: both;
+  margin: 20px auto 0;
+  width: 300px;
+}
 
+#third_page .doodle-left {
+  float: left;
+  width: 148.5px;
+  height: 178px;
+  background: url('../img/third_page_doodel_2.png') no-repeat;
+  background-size: 100%;
+}
+
+#third_page .doodle-right {
+  float: right;
+  width: 148.5px;
+  height: 176px;
+  background: url('../img/third_page_doodel_1.png') no-repeat;
+  background-size: 100%;
+}
+#third_page .footer {
+  margin-left: 20px;
+  width: 251px;
+  height: 79px;
+  background: url('../img/third_page_oneDoodle.png') no-repeat;
+  background-size: 100%;
+}
+.clear {
+  clear: both;
+}
+#divider {
+  margin: 25px auto;
+  width: 298px;
+  height: 8.5px;
+  background: url('../img/divider.png') no-repeat;
+  background-size: 100%;
+}
+#fourth_page .text {
+  margin: 0 20px;
+  color: #2c2c2c;
+  word-wrap: break-word;
+  font-family: 'Dosis';
+  font-size: 1.9em;
+  line-height: 110%;
+  margin-top: 20px;
+}
 
 
 
