@@ -2,6 +2,7 @@
 body, html {
   width: 100%;
   height: 100%;
+  font-size: 14px;
 }
 .content {
   width: 100%;
@@ -9,6 +10,7 @@ body, html {
 }
 
 #landing {
+  padding-top:50px;
   width: 100%;
   height: 100%;
   background: url('../img/wallpaper_iphone.jpg') no-repeat;
@@ -22,3 +24,54 @@ body, html {
   background: url('../img/doodels_logo.png') no-repeat;
   background-size: 100%;
 }
+
+#slogan {
+  margin-top: 40px;
+  color: #fff;
+  text-shadow: 3px 3px 3px #222;
+}
+
+#slogan_number {
+  font-family: 'Archivo Narrow';
+  font-weight: bold;
+  font-size: 6.5em;
+  position: absolute;
+  right: -75px;
+  top: 50px;
+}
+
+#slogan_rainbow {
+  position: relative;
+  width: 236.5px;
+  height: 149px;
+  background: url('../img/landing_rainbow.png') no-repeat;
+  background-size: 100%;
+}
+
+#slogan_text {
+  letter-spacing: 75%;
+  margin-left: 10px;
+  line-height: .76em;
+  width: 320px;
+  font-family: 'Dosis';
+  font-size: 4em;
+}
+
+#slogan_text span {
+  color: #44c2ee;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
