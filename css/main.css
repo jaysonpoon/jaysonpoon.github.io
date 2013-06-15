@@ -72,8 +72,7 @@ body, html {
   background: url('../img/more_than.png') no-repeat;
   background-size: 100%;
 }
-
-#second_page .text {
+.text {
   margin: 0 20px;
   color: #2c2c2c;
   font-family: 'Dosis';
@@ -81,6 +80,14 @@ body, html {
   line-height: 110%;
   margin-top: 20px;
 }
+/*#second_page .text {
+  margin: 0 20px;
+  color: #2c2c2c;
+  font-family: 'Dosis';
+  font-size: 1.7em;
+  line-height: 110%;
+  margin-top: 20px;
+}*/
 #second_page .doodel {
   margin: 35px auto 0;
   width: 288px;
@@ -164,7 +171,7 @@ body, html {
   background: url('../img/divider.png') no-repeat;
   background-size: 100%;
 }
-#fourth_page .text {
+/*#fourth_page .text {
   margin: 0 20px;
   color: #2c2c2c;
   word-wrap: break-word;
@@ -172,7 +179,7 @@ body, html {
   font-size: 1.9em;
   line-height: 110%;
   margin-top: 20px;
-}
+}*/
 
 
 
