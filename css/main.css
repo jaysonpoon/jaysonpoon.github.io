@@ -224,7 +224,7 @@ span.yel {
   background-size: 100%;
   width: 128.5px;
   height: 128.5px;
-  margin-bottom: 45px;
+  margin-bottom: 35px;
   text-align: center;
   font-size: .9em;
 }
@@ -278,6 +278,7 @@ span.yel {
   width: 75px;
   height: 74px;
   background-size: 100%;
+  margin: 0 5px;
 }
 #fb_btn {
   background: url('../img/fb_btn.png') no-repeat;
@@ -290,7 +291,7 @@ span.yel {
 }
 #fifth_page .footer {
   text-align: center;
-  width: 250px;
+  width: 280px;
   margin: 35px auto;
 }
 #fifth_page .text p {

@@ -1,4 +1,5 @@
 $(function () {
-  // $('.content').text($(window).width());
-  // $('.content').text($('.content').height());
+  $('#fb_btn').on('click', function () {
+    window.location.href = 'http://facebook.com/doodelsinc';
+  });
 });
