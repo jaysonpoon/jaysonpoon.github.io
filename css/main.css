@@ -316,6 +316,12 @@ a:hover {
   background-size: 100%;
   margin: 35px auto 0;
 }
+#appstore a {
+  display: inline-block;
+  width: 216px;
+  height: 71.5px;
+  
+}
 .footer .leftToparrow {
   float: left;
   margin-right: 5px;
