@@ -4,12 +4,128 @@ body, html {
   height: 100%;
   font-size: 14px;
 }
+a {
+  color: #2d8de3;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
 .content {
   width: 320px;
   height: 100%;
 }
 #landing, #second_page, #third_page, #fourth_page {
   /*display: none;*/
+}
+#donation {
+  font-family: 'Dosis';
+}
+#crayon_img {
+  margin: 0 auto;
+  background: url('../img/crayon.png') no-repeat;
+  background-size: 100%;
+  width: 250.5px;
+  height: 219px;
+}
+#donation .title {
+  color: #3e3e3e;
+  font-weight: bold;
+  text-align: center;
+  font-size: 2em;
+}
+#donation .body {
+  margin: 0 20px;
+  font-size: 1.3em;
+  color: #3e3e3e;
+}
+#donation .amount {
+  color: #3e3e3e;
+  float: right;
+  font-size: 1.5em;
+  margin-top: -5px;
+}
+#donation .amount input {
+  width: 50px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin: 0 15px;
+}
+#donation .footer {
+  margin-top: 15px;
+  padding: 0 20px;
+}
+#donation .enterAmount {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #2d8de3;
+  font-family: 'Dosis';
+}
+#contribution_page .title {
+  font-family: 'Dosis';
+  color: #3e3e3e;
+  font-size: 2.2em;
+  text-align: center;
+  font-weight: bold;
+}
+#contribution_page .chart {
+  background: url('../img/chart.png') no-repeat;
+  background-size: 100%;
+  margin: 30px auto;
+  width: 213px;
+  height: 213px;
+}
+#contribution_page .dotText {
+  margin: 25px 20px;
+}
+#contribution_page span {
+  position: relative;
+  top: 3px;
+  font-family: 'Dosis';
+  font-size: 1.2em;
+}
+#contribution_page .dot {
+  vertical-align: middle;
+  margin-right: 15px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+}
+#contribution_page .yellow {
+  background-color: #fbcf33;
+}
+#contribution_page .blue {
+  background-color: #3d91df;
+}
+#contribution_page .red {
+  background-color: #bf4c40;
+}
+#donation .btn {
+  background-color: #2d8de3;
+  border: 0;
+  color: #fff;
+  font-size: 1.2em;
+  padding: 8px 15px;
+  font-weight: bold;
+}
+#donation .supportBtns {
+  margin-top: 15px;
+}
+#contribution {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#contribution .title {
+  color: #2d8de3;
+  font-family: 'Dosis';
+  font-size: 1.2em;
+  text-align: center;
+}
+#donation .right {
+  float: right;
+  margin-right: 15px;
 }
 #landing {
   padding-top:20px;
@@ -84,7 +200,7 @@ body, html {
   width: 288px;
   height: 323.5px;
   background: url('../img/2nd_doodel.png') no-repeat;
-  background-size: 100%;
+  background-size: 100% !important;
 }
 
 .text span {
@@ -221,7 +337,7 @@ span.yel {
   background-size: 100%;
 }
 .team {
-  background-size: 100%;
+  background-size: 100% !important;
   width: 128.5px;
   height: 128.5px;
   margin-bottom: 35px;
@@ -277,7 +393,7 @@ span.yel {
   display: inline-block;
   width: 75px;
   height: 74px;
-  background-size: 100%;
+  background-size: 100% !important;
   margin: 0 5px;
 }
 #fb_btn {
