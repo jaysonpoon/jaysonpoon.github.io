@@ -11,10 +11,10 @@ $(function () {
       StripeCheckout.open({
         key:         'pk_test_KL3gwhbEY0xY4LVIiBAtfN2V',
         address:     true,
-        amount:      20,
+        amount:      parseInt($('#donateAmount').val(), 10)*100,
         currency:    'usd',
         name:        'Doodels One Cryon',
-        panelLabel:  'Support',
+        panelLabel:  'Donate',
         token:       token
       });
 
